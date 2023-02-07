@@ -1,28 +1,29 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { connect } from 'react-redux'
+import { createIncrementAction } from '../../redux/actions/portfolio'
 
-export default function Nav() {
+function Nav(props) {
     return (
-        <div style={{width: '15vw', backgroundColor:'pink',height:'94vh'}}>
+        <div style={{width: '15vw', backgroundColor:'pink',height:'95vh'}}>
             <h3>作品集</h3>
-            <hr/>
-            <NavLink to='/portfolio/reactredux'>React-Redux</NavLink>
-            <hr/>
-            <NavLink to='/portfolio/poker'>Poker</NavLink>
-            <hr/>
-            <NavLink to='/portfolio/userserch'>UserSearch</NavLink>
-            <hr/>
-            <NavLink to='/portfolio/todolist'>TodoList</NavLink>
-            <hr/>
-            <NavLink to='/portfolio/mousemove'>MouseMove!</NavLink>
-            <hr/>
-            <NavLink to='/portfolio/kfc'>KFC優惠券快選</NavLink>
-            <hr/>
-            <NavLink to='/portfolio/natsumatsuri'>夏季開始!</NavLink>
-            <hr/>
-            <NavLink to='/portfolio/roulette'>想不到吃甚麼?</NavLink>
-            <hr/>
-            <NavLink>來學習50音吧!</NavLink>
+            {
+                props.portfolioDate.map((pObj)=>{
+                    return(
+                        <div key={pObj.id}>
+                            <hr/>
+                            <NavLink to={`/portfolio/${pObj.url}`}>{pObj.title}</NavLink> 
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }
+
+export default connect(
+    state=> ({portfolioDate : state}),
+    {
+        increment: createIncrementAction
+    }
+)(Nav)
