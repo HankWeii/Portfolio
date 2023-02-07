@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdemo2=self.webpackChunkdemo2||[]).push([[213],{892:function(e,t,c){c.r(t),c.d(t,{default:function(){return s}});c(791);var n=c(841),r=c.p+"static/media/PortfolioImg.135278fcc6aaac13f967.jpg",i=c(184);function s(){return(0,i.jsxs)(n.Ms,{children:[(0,i.jsx)(n.HT,{children:(0,i.jsx)("a",{href:"https://hankweii.github.io/SectumSempra/",target:"_blank",children:(0,i.jsx)(n.AP,{src:r})})}),(0,i.jsx)(n.HT,{children:"\u8a66\u8457\u81ea\u5df1\u5beb\u8ce3\u8863\u670d\u5b98\u7db2"})]})}}}]);
+//# sourceMappingURL=213.7014cb1f.chunk.js.map
