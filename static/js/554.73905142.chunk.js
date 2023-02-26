@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdemo2=self.webpackChunkdemo2||[]).push([[554],{283:function(e,n,i){i.r(n),i.d(n,{default:function(){return c}});i(791);var t=i(841),r=i.p+"static/media/PortfolioImg.8911624e518e818c90b6.jpg",s=i(184);function c(){return(0,s.jsxs)(t.Ms,{children:[(0,s.jsx)(t.HT,{children:(0,s.jsx)("a",{href:"https://hankweii.github.io/Yilan/",target:"_blank",children:(0,s.jsx)(t.AP,{src:r})})}),(0,s.jsx)(t.HT,{children:"\u7d00\u93042023/02/25 \u5b9c\u862d\u4e00\u65e5\u904a"})]})}}}]);
+//# sourceMappingURL=554.73905142.chunk.js.map
