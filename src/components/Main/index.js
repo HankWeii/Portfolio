@@ -20,6 +20,7 @@ const Natsumatsuri = lazy(()=>import('./Portfolio/Natsumatsuri'))
 const Roulette = lazy(()=>import('./Portfolio/Roulette'))
 const TaiwanMap = lazy(()=>import('./Portfolio/TaiwanMap'))
 const SectumSempra = lazy(()=>import('./Portfolio/SectumSempra'))
+const Yilan = lazy(()=>import('./Portfolio/Yilan'))
 
 
 
@@ -43,6 +44,7 @@ function Main(props) {
                     <Route path='/portfolio/roulette' element={<Roulette/>}></Route>
                     <Route path='/portfolio/taiwanmap' element={<TaiwanMap />} />
                     <Route path='/portfolio/sectumsempra' element={<SectumSempra />} />
+                    <Route path='/portfolio/yilan' element={<Yilan/>} />
                 </Routes>
             </Suspense>
         </div>

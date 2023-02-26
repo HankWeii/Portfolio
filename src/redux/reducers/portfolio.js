@@ -2,6 +2,7 @@ import { INCREMENT } from "../constant";
 import ReactRedux from "../../components/Main/Portfolio/React-Redux";
 
 const initState = [
+    {id:'11', name:'Yilan', url: 'yilan', title:'2023/02/25宜蘭遊'},
     {id:'00' ,name:'SectumSempra', url: 'sectumsempra', title:'SectumSempra'},
     {id:'01' ,name:'TaiwanMap', url: 'taiwanmap', title:'TaiwanMap'},
     {id:'02' ,name:'ReactRedux', url: 'reactredux', title:'React-Redux'},
